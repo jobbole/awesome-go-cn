@@ -17,9 +17,8 @@
 ### 目录
 
 - [Awesome Go](#awesome-go)
-        - [参与](#)
-            - [_如果你发现某个项目已经不维护了，或者它并不好，请发起一个 pull request 来帮助我们改善此列表。感谢。_](#pull-request)
-        - [目录](#)
+    - [参与](#)
+    - [目录](#)
     - [音频和音乐](#)
     - [认证和授权](#)
     - [命令行](#)
@@ -413,8 +412,7 @@ _用于构建分布式系统的库_
 * [sleuth](https://github.com/ursiform/sleuth) - 在 HTTP 服务之间进行无主 p2p 自动发现和 RPC通信(使用 [ZeroMQ](https://github.com/zeromq/libzmq)).
 * [tendermint](https://github.com/tendermint/tendermint) - 一个高性能的中间件，用于将任何语言编写的状态机转换为一个拜占庭容错状态机，使用Tendermint 一致性及区块链协议
 * [torrent](https://github.com/anacrolix/torrent) - BitTorrent 客户端
-
-        * [dht](https://Godoc.org/github.com/anacrolix/dht) - BitTorrent Kademlia DHT 实现.
+    * [dht](https://Godoc.org/github.com/anacrolix/dht) - BitTorrent Kademlia DHT 实现.
     * [Go-peerflix](https://github.com/Sioro-Neoku/Go-peerflix) - 视频流torrent客户端
 
 ## 电子邮件
