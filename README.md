@@ -153,7 +153,7 @@ _用于构建标准或基础命令行应用的库_
 * [Go-arg](https://github.com/alexflint/Go-arg) - 使用 Go 语言编写的基于结构的命令行参数解析库
 * [Go-flags](https://github.com/jessevdk/Go-flags) - Go 语言命令行选项解析器
 * [kingpin](https://github.com/alecthomas/kingpin) - 命令行及标记解析器，支持子命令
-* [liner](https://github.com/peterh/liner) - Go readline-like library for命令行交互
+* [liner](https://github.com/peterh/liner) - 命令行文本编辑器
 * [mitchellh/cli](https://github.com/mitchellh/cli) - 用于实现命令行交互的 Go 语言库
 * [mow.cli](https://github.com/jawher/mow.cli) - 用于构建命令行程序的库，支持更加精准的标记及选项解析和验证
 * [pflag](https://github.com/spf13/pflag) - Go flag 软件包的替代品, 实现了POSIX/GNU-风格的 --flags.
@@ -194,13 +194,14 @@ _用于进行配置解析的库_
 * [config](https://github.com/olebedev/config) - JSON 或 YAML 配置的封装，支持环境变量和标记解析
 * [configure](https://github.com/paked/configure) - 可以通过多种途径进行配置，包括 JSON, 标记位以及环境变量
 * [env](https://github.com/caarlos0/env) - 解析环境变量为 Go 语言结构体
-* [envcfg](https://github.com/tomazk/envcfg) - 解析环境变量为 Go 语言结构体* [envconf](https://github.com/ian-kent/envconf) - 通过环境变量来配置
+* [envcfg](https://github.com/tomazk/envcfg) - 解析环境变量为 Go 语言结构体
+* [envconf](https://github.com/ian-kent/envconf) - 通过环境变量来配置
 * [envconfig](https://github.com/vrischmann/envconfig) - 通过环境变量读取配置
 * [gcfg](https://github.com/Go-gcfg/gcfg) - 读取类 INI 类型的配置文件为 Go 语言结构体，支持自定义变量和节
 * [GoConfig](https://github.com/crgimenes/GoConfig) - 通过命令行的输入、环境变量、配置文件来初始化一个结构体兵将一个结构体解析为输入
 * [Godotenv](https://github.com/joho/Godotenv) - Ruby 库 dotenv 的 Go 语言接口 (通过 `.env` 来获取环境变量)
 * [Gofigure](https://github.com/ian-kent/Gofigure) - 让 Go 语言应用程序配置变得简单
-* [Gone/jconf](https://github.com/One-com/Gone/tree/master/jconf#readme) - 模块化 JSON 配置工具。 Keep you config structs along the code they configure and delegate parsing to submodules without sacrificing full config serialization.
+* [Gone/jconf](https://github.com/One-com/Gone/tree/master/jconf#readme) - 模块化 JSON 配置工具。允许你将配置参数结构体和使用它的代码放在一起，而不需要让主配置文件了解所有子模块的细节来进行序列化
 * [hjson](https://github.com/hjson/hjson-Go) - 人性化的 JSON，一个便于程序员使用和阅读的配置文件格式。更加轻松的语法，更少的错误和更多的注释
 * [inGo](https://github.com/schachmat/inGo) - 将配置标记持久化到一个类似 ini 的文件中
 * [ini](https://github.com/Go-ini/ini) - 用于读写INI 文件的库
@@ -214,7 +215,7 @@ _用于进行配置解析的库_
 
 _帮助你进行持续集成的库_
 
-* [drone](https://github.com/drone/drone) - Drone是一个基于Docker的持续集成平台，使用 Go 语言编写
+* [drone](https://github.com/drone/drone) - Drone 是一个基于 Docker的持续集成平台，使用 Go 语言编写
 * [Goveralls](https://github.com/mattn/Goveralls) - Coveralls.io 是一个持续代码覆盖率检测系统，这个库提供了 Go 语言的支持
 * [overalls](https://github.com/Go-playground/overalls) - 针对多package 的 Go 语言项目，为 Goveralls 这样的工具生成覆盖率报告
 * [roveralls](https://github.com/LawrenceWoodman/roveralls) - 回归覆盖测试工具
@@ -237,7 +238,7 @@ _通用数据结构及算法_
 * [bloom](https://github.com/zhenjl/bloom) - Go 语言实现的bloom filter
 * [bloom](https://github.com/yourbasic/bloom) - Go 语言实现的bloom filter
 * [boomfilters](https://github.com/tylertreat/BoomFilters) - 概率统计数据结构，用于处理大量连续的数据。
-* [count-min-log](https://github.com/seiflotfy/count-min-log) - Go implementation Count-Min-Log sketch: Approximately counting with approximate counters (Like Count-Min sketch but using less memory).
+* [count-min-log](https://github.com/seiflotfy/count-min-log) - Go 语言实现的 Count-Min-Log sketch 算法(类似 Count-Min sketch 算法，但是使用的内存更少).
 * [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo 过滤器：一个用go语言实现的计数布隆过滤器的替代品
 * [encoding](https://github.com/zhenjl/encoding) - 整型压缩库
 * [Go-adaptive-radix-tree](https://github.com/plar/Go-adaptive-radix-tree) - Go 语言实现的自适应基数树
@@ -265,7 +266,7 @@ _通用数据结构及算法_
 *   Go 语言实现的数据库*
 * [BigCache](https://github.com/allegro/bigcache) - 为 gigabytes 量级数据设计的高效键/值缓存
 * [bolt](https://github.com/boltdb/bolt) - 底层键值数据库
-* [buntdb](https://github.com/tidwall/buntdb) - 快速，可嵌入的，内存键值数据库，可定义索引及spatial
+* [buntdb](https://github.com/tidwall/buntdb) - 快速，可嵌入的，内存键值数据库，可定义索引及 spatial
 * [cache2Go](https://github.com/muesli/cache2Go) - 基于内存存储的键值缓存，支持自动基于超时的自动失效
 * [cockroach](https://github.com/cockroachdb/cockroach) - 可扩展的、一致的事务型数据库
 * [couchcache](https://github.com/codingsince1985/couchcache) - RESTful 缓存微服务，基于Couchbase
@@ -309,9 +310,9 @@ _数据库工具_
 * [kingshard](https://github.com/flike/kingshard) - kingshard 是一个Go语言编写的高性能 MySQL 数据库代理
 * [myreplication](https://github.com/2tvenom/myreplication) - MySql 二进制log复制监听器，支持基于语句和基于行的复制
 * [orchestrator](https://github.com/github/orchestrator) - MySQL复制拓扑管理器及可视化工具
-* [pgweb](https://github.com/sosedoff/pgweb) - 基于Web的 PostgreSQL 数据库浏览工具
-* [pREST](https://github.com/nuveo/prest) - 通过任何PostgreSQL数据库提供 RESTful API
-* [vitess](https://github.com/youtube/vitess) - vitess 提供了能够使大型web服务 MySQL 数据库的扩展变得更加容易的服务器及工具
+* [pgweb](https://github.com/sosedoff/pgweb) - 基于 Web 的 PostgreSQL 数据库浏览工具
+* [pREST](https://github.com/nuveo/prest) - 通过任何 PostgreSQL 数据库提供 RESTful API
+* [vitess](https://github.com/youtube/vitess) - vitess 提供了能够使大型 web 服务 MySQL 数据库的扩展变得更加容易的服务器及工具
 
 _用于创建和使用SQL的库_
 
@@ -321,7 +322,7 @@ _用于创建和使用SQL的库_
 * [iGor](https://github.com/galeone/iGor) - PostgreSQL 的抽象层，支持高级功能以及类 Gorm 的语法
 * [ozzo-dbx](https://github.com/Go-ozzo/ozzo-dbx) - 提供强大的数据恢复功能以及构建不区分数据库类型的查询的能力
 * [scaneo](https://github.com/variadico/scaneo) - 生成用于将数据库行转换为任意结构体的 Go 代码
-* [sqrl](https://github.com/elgris/sqrl) - SQL 查询创建器，是 Squirrel 的一个 fork 版本，进行了性能方面的优化
+* [sqrl](https://github.com/elgris/sqrl) - SQL 查询创建器，是 Squirrel 的一个分叉版本，进行了性能方面的优化
 * [Squirrel](https://github.com/Masterminds/squirrel) - 一个帮助你构建 SQL 查询的库
 * [xo](https://github.com/knq/xo) - 基于已知的数据库表或自定义查询生成地道的 Go 语言代码，支持 PostgreSQL, MySQL, SQLite, Oracle, 以及 Microsoft SQL Server.
 
@@ -335,12 +336,12 @@ _用于连接和操作数据库的库_
     * [firebirdsql](https://github.com/nakagami/firebirdsql) - Firebird RDBMS SQL 驱动
     * [Go-adodb](https://github.com/mattn/Go-adodb) - Microsoft ActiveX 对象数据库驱动
     * [Go-bqstreamer](https://github.com/rounds/Go-bqstreamer) - BigQuery fast and concurrent stream insert.
-    * [Go-mssqldb](https://github.com/denisenkom/Go-mssqldb) - go语言Microsoft MSSQL 驱动
+    * [Go-mssqldb](https://github.com/denisenkom/Go-mssqldb) - go 语言Microsoft MSSQL 驱动
     * [Go-oci8](https://github.com/mattn/Go-oci8) - Oracle 驱动
-    * [Go-sql-driver/mysql](https://github.com/Go-sql-driver/mysql) - go语言MySQL驱动
-    * [Go-sqlite3](https://github.com/mattn/Go-sqlite3) - go语言的SQLite3 驱动
+    * [Go-sql-driver/mysql](https://github.com/Go-sql-driver/mysql) - go 语言 MySQ L驱动
+    * [Go-sqlite3](https://github.com/mattn/Go-sqlite3) - go 语言的 SQLite3 驱动
     * [Gofreetds](https://github.com/minus5/Gofreetds) Microsoft MSSQL 驱动。 [FreeTDS](http://www.freetds.org)的go语言封装
-    * [pgx](https://github.com/jackc/pgx) - PostgreSQL 驱动，支持比database/sql更多的特性
+    * [pgx](https://github.com/jackc/pgx) - PostgreSQL 驱动，支持比 database/sql 更多的特性
     * [pq](https://github.com/lib/pq) - 纯Go语言编写的Postgres 驱动
 *   NoSQL 数据库
     * [aerospike-client-Go](https://github.com/aerospike/aerospike-client-Go) - Aerospike 客户端
@@ -348,15 +349,15 @@ _用于连接和操作数据库的库_
     * [asc](https://github.com/viant/asc) - 用于go语言连接 Aerospike
     * [cayley](https://github.com/Google/cayley) - 支持多种后端的图数据库
     * [dsc](https://github.com/viant/dsc) - 数据库连接工具包，支持SQL, NoSQL及结构化文件
-    * [dynaGo](https://github.com/underarmour/dynaGo) - DynaGo is a principle of least surprise client for DynamoDB
-    * [Go-couchbase](https://github.com/couchbase/Go-couchbase) - Go语言Couchbase客户的
+    * [dynaGo](https://github.com/underarmour/dynaGo) - DynaGo 是一个符合最小惊奇原则（principle of least surprise）的 DynamoDB 客户端
+    * [Go-couchbase](https://github.com/couchbase/Go-couchbase) - Go 语言 Couchbase 客户的
     * [Go-couchdb](https://github.com/fjl/Go-couchdb) - 另一个 CouchDB HTTP API 的 Go 语言封装
     * [Gocb](https://github.com/couchbase/Gocb) - 官方 Couchbase 的 Go 语言 SDK
-    * [Gocql](http://Gocql.github.io) - Apache Cassandra的go语言驱动
+    * [Gocql](http://Gocql.github.io) - Apache Cassandra 的 go 语言驱动
     * [Gomemcache](https://github.com/bradfitz/Gomemcache/) - memcache 客户端库
     * [Gorethink](https://github.com/dancannon/Gorethink) - RethinkDB 的 Go 语言驱动
     * [Goriak](https://github.com/zegl/Goriak) - Riak KV 的 Go 语言驱动
-    * [mGo](https://Godoc.org/labix.org/v2/mGo) - MonGoDB 驱动，通过简单的API实现了丰富的、经过测试的特性，这些 API 遵循 Go 语言的习惯
+    * [mGo](https://Godoc.org/labix.org/v2/mGo) - MonGoDB 驱动，通过简单的 API 实现了丰富的、经过测试的特性，这些 API 遵循 Go 语言的习惯
     * [neo4j](https://github.com/cihangir/neo4j) - Neo4j Rest API 的 Go 语言接口
     * [Neo4j-Go](https://github.com/davemeehan/Neo4j-Go) - Go 语言实现的 Neo4j REST 客户端
     * [neoism](https://github.com/jmcvetta/neoism) - Go 语言 Neo4j 客户端
@@ -379,7 +380,7 @@ _处理日期和时间的库_
 
 * [carbon](https://github.com/uniplaces/carbon) - 简单的时间扩展程序，有很多有用的方法，是 PHP Carbon 库的接口
 * [durafmt](https://github.com/hako/durafmt) - 持续时间格式化
-* [feiertage](https://github.com/wlbr/feiertage) - 一组计算德国公共假期的函数，比如复活区、感恩节。。。
+* [feiertage](https://github.com/wlbr/feiertage) - 一组计算德国公共假期的函数，比如复活节、感恩节等
 * [Go-persian-calendar](https://github.com/yaa110/Go-persian-calendar) - 太阳历
 * [Goweek](https://github.com/grsmv/Goweek) - 处理星期的库
 * [now](https://github.com/jinzhu/now) - Now 是一个 Go 语言的时间工具集
@@ -390,17 +391,17 @@ _处理日期和时间的库_
 
 _用于构建分布式系统的库_
 
-* [celeriac](https://github.com/svcavallar/celeriac.v1) - Library for adding support for interacting and monitoring Celery workers, tasks and events in Go
-* [drmaa](https://github.com/dgruber/drmaa) - Job submission library for cluster schedulers based on the DRMAA standard.
-* [flowgraph](https://github.com/vectaport/flowgraph) - MPI-style ready-send coordination layer.
-* [gleam](https://github.com/chrislusf/gleam) - Fast and scalable distributed map/reduce system written in pure Go and Luajit, combining Go's high concurrency with Luajit's high performance, runs standalone or distributed.
-* [glow](https://github.com/chrislusf/glow) - 简单易用、可扩展的大数据处理能力，Map-Reduce 以及执行DAG(Database Availability Group），所有功能均由Go语言编写.
+* [celeriac](https://github.com/svcavallar/celeriac.v1) - 利用Go语言对Celery 的 worker，任务，事件进行交互和监控的库
+* [drmaa](https://github.com/dgruber/drmaa) -集群调度工具的任务提交库，基于标准 DRMAA 
+* [flowgraph](https://github.com/vectaport/flowgraph) - MPI 风格的读取，发送协同层
+* [gleam](https://github.com/chrislusf/gleam) - 快速、可扩展的分布式 map/reduce 系统，使用纯 Go 语言和 Luajit 编写，融合了 Go 语言的高并发能力和 Luajit 的高性能，可以独立或分布式部署运行。
+* [glow](https://github.com/chrislusf/glow) - 简单易用、可扩展的大数据处理能力，Map-Reduce 以及执行 DAG(Database Availability Group），所有功能均由Go语言编写.
 * [Go-jump](https://github.com/dgryski/Go-jump) - Google "Jump" 一致性哈希函数的借口
 * [Go-kit](https://github.com/Go-kit/kit) - 为服务工具吧，支持服务发现、负载均衡 、可插拔传输以及请求追踪等
 * [Gorpc](https://github.com/valyala/Gorpc) - 简单、快速、可扩展的 RPC 库，针对高负载场景
-* [grpc-Go](https://github.com/grpc/grpc-Go) - go语言实现的 gRPC. HTTP/2 基于 RPC.
+* [grpc-Go](https://github.com/grpc/grpc-Go) - Go 语言实现的 gRPC. HTTP/2 基于 RPC.
 * [hprose](https://github.com/hprose/hprose-Golang) - 非常牛逼的 RPC 库，当前支持 25+ 语言。
-* [jsonrpc](https://github.com/osaminGo/jsonrpc) - jsonrpc 包实现了JSON-RPC 2.0.
+* [jsonrpc](https://github.com/osaminGo/jsonrpc) - jsonrpc 包实现了 JSON-RPC 2.0.
 * [jsonrpc](https://github.com/ybbus/jsonrpc) - JSON-RPC 2.0 HTTP 客户端实现
 * [KrakenD](https://github.com/devopsfaith/krakend) - 带有中间件的，高性能 API 网关框架
 * [micro](https://github.com/micro/micro) - 微服务工具套件和分布式系统平台
@@ -420,7 +421,7 @@ _用于构建分布式系统的库_
 _用于创建和发送电子邮件的库_
 
 * [douceur](https://github.com/aymerick/douceur) - HTML 邮件中的内联 CSS
-* [email](https://github.com/jordan-wright/email) -一个健壮的、灵活的 email 库
+* [email](https://github.com/jordan-wright/email) - 一个健壮的、灵活的 email 库
 * [Go-dkim](https://github.com/toorop/Go-dkim) - DKIM 库，用于对 email 进行签名和验证
 * [Go-imap](https://github.com/emersion/Go-imap) - IMAP 库，用于客户端和服务器
 * [Go-message](https://github.com/emersion/Go-message) - 用于触雷互联网消息格式和邮件的库
@@ -440,7 +441,7 @@ _在你的 Go 代码中嵌入其他语言._
 * [binder](https://github.com/alexeyco/binder) - Lua 接口, 基于 [Gopher-lua](https://github.com/yuin/Gopher-lua)
 * [gisp](https://github.com/jcla1/gisp) - Simple LISP
 * [Go-duktape](https://github.com/olebedev/Go-duktape) - Duktape JavaScript 引擎的 Go 语言接口
-* [Go-lua](https://github.com/Shopify/Go-lua) - Port of the Lua 5.2 VM to pure Go
+* [Go-lua](https://github.com/Shopify/Go-lua) - Lua 5.2 虚拟机的纯Go语言接口
 * [Go-php](https://github.com/deuill/Go-php) - PHP 的 Go 语言接口
 * [Go-python](https://github.com/sbinet/Go-python) - CPython C-API 的 Go语言接口
 * [Golua](https://github.com/aarzilli/Golua) - Lua C API。的 Go 语言接口
@@ -509,7 +510,7 @@ _一些增强语言的功能的工具例如通过代码生成支持泛型_
 
 * [efaceconv](https://github.com/t0pep0/efaceconv) - 代码生成工具，用于高效的将 interface{} 转换为不可变类型，不需要进行任何内存分配
 * [gen](https://github.com/clipperhouse/gen) - 代码生成工具,用于提供类似泛型的功能
-* [Go-linq](https://github.com/ahmetalpbalkan/Go-linq) - 类似.NET LINQ 的查询方法
+* [Go-linq](https://github.com/ahmetalpbalkan/Go-linq) - 类似 .NET LINQ 的查询方法
 * [interfaces](https://github.com/rjeczalik/interfaces) - 命令行工具，用于生成接口定义
 * [jennifer](https://github.com/dave/jennifer) - 不适用模板生成任意 Go 语言代码
 * [pkgreflect](https://github.com/ungerik/pkgreflect) - 用于包作用域反射的 Go 语言预处理器
