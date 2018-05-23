@@ -1152,47 +1152,46 @@ _用于访问第三方 APIs 的库_
 ## 实用工具
 
 _可以让你的生活变得更简单的实用工具._
-
 * [abutil](https://github.com/bahlo/abutil) - 常用 Go 语言工具的集合
 * [apm](https://github.com/topfreegames/apm) - Go 语言进程管理工具具有HTTP API.
 * [boilr](https://github.com/tmrts/boilr) - 一个超快的命令行工具，用于从模板文件生成项目
 * [circuitbreaker](https://github.com/rubyist/circuitbreaker) - Go 语言断路器模式
 * [clockwerk](http://github.com/onatm/clockwerk) - 使用简单、流畅的语法来调度周期性任务
 * [command](https://github.com/txgruppi/command) - 命令模式，支持线程安全的串行、并行调度
-* [coop](https://github.com/rakyll/coop) - Go 语言中常见的并发流程 Cheat sheet
+* [coop](https://github.com/rakyll/coop) - Go 语言中常见的并发流程速查表
 * [copy-pasta](https://github.com/jutkko/copy-pasta) - 通用多工作站剪切板，使用类似 S3 的后端作为存储
 * [ctop](https://github.com/bcicen/ctop) - [类似Top](http://ctop.sh)的接口 (例如 htop) ，用于容器数据收集
 * [Death](https://github.com/vrecan/death) - 利用信号管理应用程序的关闭
 * [Deepcopier](https://github.com/ulule/deepcopier) - 结构体拷贝
 * [delve](https://github.com/derekparker/delve) - Go 语言调试器
-* [dlog](https://github.com/kirillDanshin/dlog) - 编译时控制的日志，让你的 release 包变得更小而不需移除debug 调用
+* [dlog](https://github.com/kirillDanshin/dlog) - 编译时控制的日志，让你的 release 包变得更小而不需移除 debug 调用
 * [excelize](https://github.com/Luxurioust/excelize) - 用于读写 Microsoft Excel (XLSX) 文件的库
 * [fastlz](https://github.com/digitalcrab/fastlz) - [FastLz](http://fastlz.org/) (免费，开源，可移植实时压缩库) 的一个封装
 * [filetype](https://github.com/h2non/filetype) - 通过数字签名来推测文件类型
 * [filler](https://github.com/yaronsumel/filler) - 使用 "fill" 标记来填充结构体的小工具
 * [fzf](https://github.com/junegunn/fzf) - 命令行模糊查找工具
-* [generate](https://github.com/Go-playground/generate) - 针对一个路径或环境变量，递归的执行go generate，可以通过正则表达式来进行过滤
+* [generate](https://github.com/Go-playground/generate) - 针对一个路径或环境变量，递归的执行 Go generate，可以通过正则表达式来进行过滤
 * [gentleman](https://github.com/h2non/gentleman) - 全功能、插件驱动的 HTTP 客户端库
 * [git-time-metric](https://github.com/git-time-metric/gtm) - 简单、无缝、轻量级的 Git 时间追踪工具
-* [GJSON](https://github.com/tidwall/gjson) - 一行代码获取JSON
-* [Go-astitodo](https://github.com/asticode/Go-astitodo) - 解析你 Go 语言代码中的TODOs（待办事项） 
-* [Go-bind-plugin](https://github.com/wendiGo/Go-bind-plugin) - Go:generate tool for wrapping symbols exported by Golang plugins (1.8 only)
-* [Go-cron](https://github.com/rk/Go-cron) - Simple Cron library for Go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons.
+* [GJSON](https://github.com/tidwall/gjson) - 一行代码获取 JSON
+* [Go-astitodo](https://github.com/asticode/Go-astitodo) - 解析你 Go 语言代码中的 TODOs（待办事项） 
+* [Go-bind-plugin](https://github.com/wendiGo/Go-bind-plugin) - Go:generate 工具，用于构建 Go 语言插件(1.8 only)，并对导出的符号进行包装
+* [Go-cron](https://github.com/rk/Go-cron) - 简单的 Go 语言 Cron 库，可以以不同的时间间隔来执行闭包或函数，从一秒到某年某月某日都可以。主要针对的是 Web 应用或者长期运行的守护进程
 * [Go-debug](https://github.com/tj/Go-debug) - 条件调试日志，用于 Go 语言库和应用程序
 * [Go-dry](https://github.com/ungerik/Go-dry) - DRY (don't repeat yourself)
 * [Go-funk](https://github.com/thoas/Go-funk) - 现代 Go 语言工具库，提供了很多有用的工具 (map, find, contains, filter, chunk, reverse, ...)
-* [Go-httpheader](https://github.com/mozillazg/Go-httpheader) - 用于将结构体编码进http 头的Go语言库
-* [Go-rate](https://github.com/beefsack/Go-rate) - Timed rate limiter for Go.
+* [Go-httpheader](https://github.com/mozillazg/Go-httpheader) - 用于将结构体编码进 http 头的 Go 语言库
+* [Go-rate](https://github.com/beefsack/Go-rate) - Go 语言版本的限速器
 * [Go-respond](https://github.com/nicklaw5/Go-respond) - 用于处理常见 HTTP JSON 响应的库.
 * [Go-sitemap-generator](https://github.com/ikeikeikeike/Go-sitemap-generator) - XML 网站地图生成器
 * [Go-torch](https://github.com/uber/Go-torch) - 为 Go 语言程序生成火焰图
-* [Go-trigger](https://github.com/sadlil/Go-trigger) - Go语言全局事件触发器，通过id和触发器，在程序的任何地方注册事件
+* [Go-trigger](https://github.com/sadlil/Go-trigger) - Go 语言全局事件触发器，通过 id 和触发器，在程序的任何地方注册事件
 * [Go-underscore](https://github.com/tobyhede/Go-underscore) - 一些有用的 Go 语言工具的集合
-* [Goback](https://github.com/carlescere/Goback) - Go simple exponential backoff package.
+* [Goback](https://github.com/carlescere/Goback) - 一个 Go 语言的简单的指数补偿包
 * [Godaemon](https://github.com/VividCortex/Godaemon) - 用于编写守护进程的工具
 * [Godropbox](https://github.com/dropbox/Godropbox) - 用于编写 Go 语言服务／应用的库，来自 Dropbox.
 * [Gohper](https://github.com/cosiner/Gohper) - 多种能够帮助你进行软件开发的工具和模块
-* [Gojq](https://github.com/elgs/Gojq) - 通过go语言进行 JSON 查询
+* [Gojq](https://github.com/elgs/Gojq) - 通过 Go 语言进行 JSON 查询
 * [Gojson](https://github.com/ChimeraCoder/Gojson) - 通过 JSON 自动生成 Go 语言结构体
 * [Golarm](https://github.com/msempere/Golarm) - 告警（支持系统事件）
 * [Golog](https://github.com/mlimaloureiro/Golog) - 简单、轻量级的命令后工具，用于对你的计划任务进行跟踪
@@ -1208,59 +1207,59 @@ _可以让你的生活变得更简单的实用工具._
 * [Goxlsxwriter](https://github.com/fterrag/Goxlsxwriter) - 用于操作 XLSX (Microsoft Excel) 文件的libxlsxwriter 库的 Go 语言接口
 * [gpath](https://github.com/tenntenn/gpath) - 用于简化结构体域访问的库
 * [grequests](https://github.com/levigross/grequests) - 简单优雅的 `net/HTTP` 封装，紧随 Python 的 requests 的步伐
-* [gron](https://github.com/roylee0704/gron) - 使用简单的 Go 语言API和Gron调度器创建定时任务
+* [gron](https://github.com/roylee0704/gron) - 使用简单的 Go 语言 API 和 Gron 调度器创建定时任务
 * [htcat](https://github.com/htcat/htcat) - Parallel and Pipelined HTTP GET Utility
-* [httpcontrol](https://github.com/facebookGo/httpcontrol) - httpcontrol 包 allows for HTTP transport level control around timeouts and retries.
-* [hub](https://github.com/github/hub) - 封装了 git 命令，提供了额外的功能用于在终端中和github进行交互
-* [hystrix-Go](https://github.com/afex/hystrix-Go) - Implements Hystrix patterns of programmer-defined fallbacks aka circuit breaker.
-* [immortal](https://github.com/immortal/immortal) - *nix 跨平台 (与操作系统无关的)监控程序
+* [httpcontrol](https://github.com/facebookGo/httpcontrol) - httpcontrol 包，运行进行 HTTP 传输层超时和重传控制
+* [hub](https://github.com/github/hub) - 封装了 git 命令，提供了额外的功能用于在终端中和 Github 进行交互
+* [hystrix-Go](https://github.com/afex/hystrix-Go) - 实现 Hystrix 风格的、程序员预定义的 fallback 机制（熔断）
+* [immortal](https://github.com/immortal/immortal) - \*nix 跨平台 (与操作系统无关的)监控程序
 * [intrinsic](https://github.com/mengzhuo/intrinsic) - 不需要编写任何汇编代码就能使用 x86 SIMD
 * [JobRunner](https://github.com/bamzi/jobrunner) - 智能的、多功能的定时任务调度器，具有任务队列和实时监控功能
-* [jsonapi-errors](https://github.com/AmuzaTkts/jsonapi-errors) - Go bindings based on the JSON API errors reference.
-* [jsonf](https://github.com/miolini/jsonf) - 控制台工具，用于高亮及JSON查询功能
-* [jsonGo](https://github.com/ricardolonga/jsonGo) - 用于更加方便的构建json对象的api
-* [jsonhal](https://github.com/RichardKnop/jsonhal) - Simple Go package to make custom structs marshal into HAL compatible JSON responses.
-* [kazaam](https://github.com/Qntfy/kazaam) - 用于传输任意JSON 文件的API
+* [jsonapi-errors](https://github.com/AmuzaTkts/jsonapi-errors) -  JSON API errors 的 Go 语言接口.
+* [jsonf](https://github.com/miolini/jsonf) - 控制台工具，用于高亮及 JSON 查询功能
+* [jsonGo](https://github.com/ricardolonga/jsonGo) - 用于更加方便的构建 JSON 对象的 API
+* [jsonhal](https://github.com/RichardKnop/jsonhal) - 一个简单的 Go 语言软件包，用于将自定义结构体转换为 HAL 兼容的 JSON 响应
+* [kazaam](https://github.com/Qntfy/kazaam) - 用于传输任意 JSON 文件的 API
 * [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload 服务器
-* [mc](https://github.com/minio/mc) - Minio Client provides minimal tools to work with Amazon S3 compatible cloud storage and filesystems.
-* [merGo](https://github.com/imdario/merGo) - Helper to merge structs and maps in Golang. Useful for configuration default values, avoiding messy if-statements.
-* [minify](https://github.com/tdewolff/minify) - Fast minifiers for HTML, CSS, JS, XML, JSON and SVG file formats.
-* [mmake](https://github.com/tj/mmake) - Modern Make.
-* [moldova](https://github.com/StabbyCutyou/moldova) - Utility for generating random data based on an input template.
+* [mc](https://github.com/minio/mc) - Minio Client 提供了一组工具，用于操作 Amazon S3 兼容云存储和文件系统
+* [merGo](https://github.com/imdario/merGo) - 用于将结构体和map合并进 Go 语言的工具。对于配置默认值，避免杂乱的if语句很有帮助
+* [minify](https://github.com/tdewolff/minify) - 快速压缩 HTML, CSS, JS, XML, JSON 以及 SVG 文件格式
+* [mmake](https://github.com/tj/mmake) - 现代 Make 工具
+* [moldova](https://github.com/StabbyCutyou/moldova) - 基于输入目标生成随机数据的工具
 * [mp](https://github.com/sanbornm/mp) - 简单的命令行邮件解析器，当前支持标准输入并输出JSON.
-* [mssqlx](https://github.com/linxGnu/mssqlx) - HA client for master slave (or master master) database which integrates simple, lightweight round-robin balancer. Based on sqlx.
-* [multitick](https://github.com/VividCortex/multitick) - Multiplexor for aligned tickers.
+* [mssqlx](https://github.com/linxGnu/mssqlx) - HA 客户端，用于主-从 (或主-主) 数据库，集成了简单的、轻量级的轮询调度负载均衡。基于 sqlx.
+* [multitick](https://github.com/VividCortex/multitick) - 用于 aligned tickers 的多路复用
 * [netbug](https://github.com/e-dard/netbug) - 远程对你的服务进行性能分析
-* [ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost.
-* [okrun](https://github.com/xta/okrun) - Go run error steamroller.
-* [onecache](https://github.com/adelowo/onecache) - Caching library with support for multiple backend stores (Redis, Memcached, filesystem etc)
-* [panicparse](https://github.com/maruel/panicparse) - Groups similar Goroutines and colorizes stack dump.
-* [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool.
-* [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency.
-* [pm](https://github.com/VividCortex/pm) - Process (i.e. Goroutine) manager with an HTTP API.
-* [profile](https://github.com/pkg/profile) - Simple profiling support package for Go.
-* [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs.
-* [realize](https://github.com/tockins/realize) - Go build system with file watchers and live reload. Run, build and watch file changes with custom paths.
-* [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
-* [rerate](https://github.com/abo/rerate) - Redis-based rate counter and rate limiter for Go.
-* [rerun](https://github.com/ivpusic/rerun) - Recompiling and rerunning Go apps when source changes.
-* [resty](https://github.com/Go-resty/resty) - Simple HTTP and REST client for Go inspired by Ruby rest-client.
-* [retry](https://github.com/kamilsk/retry) - Functional mechanism based on context to perform actions repetitively until successful.
-* [robustly](https://github.com/VividCortex/robustly) - Runs functions resiliently, catching and restarting panics.
-* [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
-* [sling](https://github.com/dghubble/sling) - Go HTTP requests builder for API clients.
-* [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
-* [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
-* [Storm](https://github.com/asdine/storm) - 一个用于BoltDB的简单又强大的工具
+* [ngrok](https://github.com/inconshreveable/ngrok) - 创建到 localhost 的隧道
+* [okrun](https://github.com/xta/okrun) - 当 Go 文件运行报错时尝试修复并运行
+* [onecache](https://github.com/adelowo/onecache) - 支持多种后端存储的缓存库(Redis, Memcached, 文件系统等)
+* [panicparse](https://github.com/maruel/panicparse) - 将类似的协程分组并对调用栈进行着色
+* [peco](https://github.com/peco/peco) - 简单的交互式过滤工具
+* [pester](https://github.com/sethgrid/pester) - Go HTTP 客户端，具有重传，补偿和并发功能
+* [pm](https://github.com/VividCortex/pm) - 基于 HTTP API 的进程管理 (i.e. Goroutine) 
+* [profile](https://github.com/pkg/profile) - 一个简单的性能分析软件包
+* [rclient](https://github.com/zpatrick/rclient) - 可读性良好、灵活、易用的 REST APIs 客户端
+* [realize](https://github.com/tockins/realize) - Go 语言构建系统，可以监控文件变化并重新加载。运行，构建，监控文件并支持自定义路径
+* [request](https://github.com/mozillazg/request) - Go 语言版的 HTTP Requests for Humans™.
+* [rerate](https://github.com/abo/rerate) - 基于 Redis 的速率计数器和限速器
+* [rerun](https://github.com/ivpusic/rerun) - 当源码变化时，重新编译并重新运行 Go 语言编写的 app
+* [resty](https://github.com/Go-resty/resty) - 简单的 HTTP 和 REST 客户端，受到 Ruby rest-client 的启发
+* [retry](https://github.com/kamilsk/retry) - 基于上下文的功能机制，反复执行命令直到成功
+* [robustly](https://github.com/VividCortex/robustly) - 有弹性的执行函数，遇到错误时捕获并重新运行
+* [scheduler](https://github.com/carlescere/scheduler) - 从容的进行 Cronjobs 任务调度
+* [sling](https://github.com/dghubble/sling) - Go HTTP 请求构造器，用于 API 客户端
+* [spinner](https://github.com/briandowns/spinner) - 一个 Go 语言软件包，提供多种选项，方便在终端中创建加载动画
+* [sqlx](https://github.com/jmoiron/sqlx) - 为内建的数据库/sql 软件包提供一组扩展
+* [Storm](https://github.com/asdine/storm) - 一个用于 BoltDB 的简单又强大的工具
 * [Task](https://github.com/Go-task/task) - 简单来讲就是 "Make" 的替代品
 * [toolbox](https://github.com/viant/toolbox) - Slice, map, multimap, struct, function, data conversion utilities. Service router, macro evaluator, tokenizer.
 * [uGo](https://github.com/alxrm/uGo) - uGo 是一个切片工具箱，有着和go语言一致的语法
-* [UNIS](https://github.com/esemplastic/unis) - Common Architecture™ for String Utilities in Go.
-* [usql](https://github.com/knq/usql) - usql 是一个通用的命令行接口，用于操作sql数据库
+* [UNIS](https://github.com/esemplastic/unis) - Go 语言字符串处理函数的通用架构
+* [usql](https://github.com/knq/usql) - usql 是一个通用的命令行接口，用于操作 sql 数据库
 * [util](https://github.com/shomali11/util) - 收集了很多有用的函数
-* [wuzz](https://github.com/asciimoo/wuzz) - 交互式命令行程序，用于进行HTTP 检查
-* [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy 提供了二进制对比功能以及go语言补丁库
-* [xlsx](https://github.com/tealeg/xlsx) - 简化了在go语言程序中，读取xml格式文件的难度
+* [wuzz](https://github.com/asciimoo/wuzz) - 交互式命令行程序，用于进行 HTTP 检查
+* [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy 提供了二进制对比功能以及 Go 语言补丁库
+* [xlsx](https://github.com/tealeg/xlsx) - 简化了在 Go 语言程序中读取 xml 格式文件的操作
 
 ## 验证
 
