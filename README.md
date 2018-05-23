@@ -752,34 +752,35 @@ _一些暂时无法归类的库_
 
 _用于处理人类语言的库_
 
-* [dpar](https://github.com/danieldk/dpar/) - Transition-based statistical dependency parser.
-* [Go-eco](https://github.com/ThePaw/Go-eco) - Similarity, dissimilarity and distance matrices; diversity, equitability and inequality measures; species richness estimators; coenocline models.
-* [Go-i18n](https://github.com/nicksnyder/Go-i18n/) - Package and an accompanying tool to work with localized text.
-* [Go-mystem](https://github.com/dveselov/mystem) - CGo bindings to Yandex.Mystem - russian morphology analyzer.
-* [Go-nlp](https://github.com/nuance/Go-nlp) - Utilities for working with discrete probability distributions and other tools useful for doing NLP work.
-* [Go-stem](https://github.com/aGonopol/Go-stem) - Implementation of the porter stemming alGorithm.
-* [Go-unidecode](https://github.com/mozillazg/Go-unidecode) - ASCII transliterations of Unicode text.
-* [Go2vec](https://github.com/danieldk/Go2vec) - Reader and utility functions for word2vec embeddings.
-* [Gojieba](https://github.com/yanyiwu/Gojieba) - This is a Go implementation of [jieba](https://github.com/fxsjy/jieba) which a Chinese word splitting alGorithm.
-* [Golibstemmer](https://github.com/rjohnsondev/Golibstemmer) - Go bindings for the snowball libstemmer library including porter 2
-* [Gounidecode](https://github.com/fiam/Gounidecode) - Unicode transliterator (also known as unidecode) for Go
-* [icu](https://github.com/Goodsign/icu) - CGo binding for icu4c C library detection and conversion functions. Guaranteed compatibility with version 50.1.
-* [libtextcat](https://github.com/Goodsign/libtextcat) - CGo binding for libtextcat C library. Guaranteed compatibility with version 2.2.
-* [MMSEGo](https://github.com/awsong/MMSEGo) - This is a Go implementation of [MMSEG](http://technology.chtsai.org/mmseg/) which a Chinese word splitting alGorithm.
-* [nlp](https://github.com/Shixzie/nlp) - Extract values from strings and fill your structs with nlp.
-* [paicehusk](https://github.com/rookii/paicehusk) - Golang implementation of the Paice/Husk Stemming AlGorithm
-* [porter](https://github.com/a2800276/porter) - This is a fairly straightforward port of Martin Porter's C implementation of the Porter stemming alGorithm.
-* [porter2](https://github.com/zhenjl/porter2) - Really fast Porter 2 stemmer.
-* [prose](https://github.com/jdkato/prose) - Library for text processing that supports tokenization, part-of-speech tagging, named-entity extraction, and more.
-* [RAKE.Go](https://github.com/Obaied/RAKE.Go) - Go port of the Rapid Automatic Keyword Extraction AlGorithm (RAKE)
-* [segment](https://github.com/blevesearch/segment) - Go library for performing Unicode Text Segmentation as described in [Unicode Standard Annex #29](http://www.unicode.org/reports/tr29/)
-* [sentences](https://github.com/neurosnap/sentences) - Sentence tokenizer: converts text into a list of sentences.
-* [shamoji](https://github.com/osaminGo/shamoji) - The shamoji is word filtering package written in Go.
-* [snowball](https://github.com/Goodsign/snowball) - Snowball stemmer port (cGo wrapper) for Go. Provides word stem extraction functionality [Snowball native](http://snowball.tartarus.org/).
-* [stemmer](https://github.com/dchest/stemmer) - Stemmer packages for Go programming language. Includes English and German stemmers.
-* [textcat](https://github.com/pebbe/textcat) - Go package for n-gram based text cateGorization, with support for utf-8 and raw text
-* [whatlangGo](https://github.com/abadojack/whatlangGo) - Natural language detection package for Go. Supports 84 languages and 24 scripts (writing systems e.g. Latin, Cyrillic, etc).
-* [when](https://github.com/olebedev/when) - Natural EN and RU language date/time parser with pluggable rules
+* [dpar](https://github.com/danieldk/dpar/) - 基于变换的统计依赖关系解析器
+* [Go-eco](https://github.com/ThePaw/Go-eco) - 相似性，相异性及距离度量；差异性，均匀度和不均匀度测量；物种多样性估计；群落线模型
+* [Go-i18n](https://github.com/nicksnyder/Go-i18n/) - 软件包及相关工具，用于处理本地化文本
+* [Go-mystem](https://github.com/dveselov/mystem) - Yandex.Mystem 的  CGo 接口， Yandex.Mystem是一个俄语词汇形态学分析器
+* [Go-nlp](https://github.com/nuance/Go-nlp) - 在进行自然语言工作时用于处理离散概率分布一些工具，以及其他的一些有用的工具
+* [Go-stem](https://github.com/aGonopol/Go-stem) - 波特词干算法的一个实现
+* [Go-unidecode](https://github.com/mozillazg/Go-unidecode) - Unicode 文本音译为ASCII 文本
+* [Go2vec](https://github.com/danieldk/Go2vec) - 利用 Go 语言读取和处理 word2vec 
+* [Gojieba](https://github.com/yanyiwu/Gojieba) - 结巴分词的 Go 语言实现[jieba](https://github.com/fxsjy/jieba) ，结巴分词是一个用于中文的分词算法
+* [Golibstemmer](https://github.com/rjohnsondev/Golibstemmer) -  snowball libstemmer 库的 Go 语言接口，包括了对 porter 2的支持
+* [Gounidecode](https://github.com/fiam/Gounidecode) - Go 语言的 Unicode 直译器 (通常称之为 unidecode) 
+* [icu](https://github.com/Goodsign/icu) - icu4c C 库的 CGo 接口，包括了检测和转换函数。保证了 version 50.1 版本的兼容性
+* [libtextcat](https://github.com/Goodsign/libtextcat) - libtextcat C 库的 CGo 接口。保证了version 2.2 版本的兼容性
+* [MMSEGo](https://github.com/awsong/MMSEGo) -  Go 语言实现的 [MMSEG](http://technology.chtsai.org/mmseg/) （一个中文分词算法）
+* [nlp](https://github.com/Shixzie/nlp) - 从字符串中提取特定的值并填充结构体
+* [paicehusk](https://github.com/rookii/paicehusk) - Go 语言实现的  Paice/Husk 词干算法
+* [porter](https://github.com/a2800276/porter) - Martin Porter 实现的 C 语言版本的 Porter 词干算法的 Go 语言接口，非常直观
+* [porter2](https://github.com/zhenjl/porter2) - 非常快速的 Porter 2 stemmer.
+* [prose](https://github.com/jdkato/prose) - 文本处理库，支持词语切分、词性标记、命名实体提取等功能
+* [RAKE.Go](https://github.com/Obaied/RAKE.Go) -  快速自动关键字提取算法(Rapid Automatic Keyword Extraction：RAKE)的 Go 语言接口
+* [segment](https://github.com/blevesearch/segment) - 一个用于进行 Unicode 文本分割的库，实现了 [Unicode Standard Annex #29](http://www.unicode.org/reports/tr29/)中描述的功能
+* [sentences](https://github.com/neurosnap/sentences) - 语句标记器：将文字段落转换为语句列表
+* [shamoji](https://github.com/osaminGo/shamoji) -  shamoji 是一个Go语言编写的词过滤软件包
+* [snowball](https://github.com/Goodsign/snowball) - Snowball 分词器的Go语言接口，提供了分词提取的功能 [Snowball native](http://snowball.tartarus.org/).
+* [stemmer](https://github.com/dchest/stemmer) -  Go 语言分词器软件包，包括了英语和德语分词器
+* [textcat](https://github.com/pebbe/textcat) - 基于 n-gram 的 Go 语言文本分类软件包，支持utf-8 和 raw 文本
+* [whatlangGo](https://github.com/abadojack/whatlangGo) - Go 语言的自然语言检测包。支持84种语言和24种书写 (如拉丁，西里尔等书写系统)。
+* [when](https://github.com/olebedev/when) - 英语、俄语的自然语言日期、时间表达解析器，可以插入规则
+
 
 ## 网络
 
