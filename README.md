@@ -1247,7 +1247,6 @@ _全栈 web 框架_
 * [Go-relax](https://github.com/codehack/Go-relax) - 具有可插拔组建的框架，用于构建 RESTful API's.
 * [Go-rest](https://github.com/ungerik/Go-rest) - Go 语言 REST 框架中的小恶魔
 * [Goa](https://github.com/raphael/Goa) - 用于开发微服务的框架，基于 Ruby 的 Praxis 的设计
-* [Goat](https://github.com/bahlo/Goat) - 极简的 REST API 服务器
 * [Golf](https://github.com/dinever/Golf) - Golf 是一个快速、简单、轻量级的 Go 语言微型 web 框架。具有强大的功能且没有标准库以外的依赖
 * [Gondola](https://github.com/rainycape/Gondola) - 用于快速编写高性能网站的框架
 * [Gongular](https://github.com/mustafaakin/Gongular) - 快速 Go web 框架，支持输入映射／验证以及依赖注入
