@@ -1479,6 +1479,7 @@ _使用 Go 语言编写的软件_
 * [vFlow](https://github.com/VerizonDigital/vflow) - 高性能、可扩展、可靠的 IPFIX, sFlow 和 Netflow 集合.
 * [websysd](https://github.com/ian-kent/websysd) - 基于 web 的进程管理工具(类似 Marathon 或 Upstart).
 * [wellington](https://github.com/wellington/wellington) - Sass 项目管理工具， 通过支持一些功能（例如Compass）扩展了这门语言
+* [gen-id](https://github.com/srlemon/gen-id) - gen-id，随机生成身份证信息，手机号码，银行卡号，地址等
 
 # 资源
 
