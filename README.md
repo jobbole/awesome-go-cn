@@ -735,6 +735,7 @@ _用于在不同网络层工作的库_
 * [ethernet](https://github.com/mdlayher/ethernet) - ethernet 实现了IEEE 802.3 Ethernet II 帧以及IEEE 802.1Q VLAN 标签的组装和剥离.
 * [fasthttp](https://github.com/valyala/fasthttp) - fasthttp 是一个快速的 HTTP 实现，是 net/http的10倍性能
 * [ftp](https://github.com/jlaffaye/ftp) - ftp 实现了一个 FTP 客户端，遵循 [RFC 959](http://tools.ietf.org/html/rfc959).
+* [gev](https://github.com/Allenxuxu/gev) - 一个轻量、比标准库更快的基于 Reactor 模式的非阻塞 TCP 网络库，支持自定义协议，轻松快速搭建高性能服务器。
 * [Go-getter](https://github.com/hashicorp/Go-getter) - 一个用于通过 URL 从多种源下载文件或目录的 Go 语言库
 * [Go-stun](https://github.com/ccding/Go-stun) - Go 语言实现的 STUN 客户端 (RFC 3489 及 RFC 5389).
 * [Gobgp](https://github.com/osrg/Gobgp) - Go 语言实现的BGP
