@@ -17,7 +17,7 @@ Awesome 系列虽然挺全，但基本只对收录的资源做了极为简要的
 本项目的参与者
 维护者：tangyouhua
 
-贡献者：[艾凌风](https://github.com/hanxiaomax)、[Allenxuxu](https://github.com/Allenxuxu)
+贡献者：[艾凌风](https://github.com/hanxiaomax)、[Allenxuxu](https://github.com/Allenxuxu)、[sanrentai](https://github.com/sanrentai)
 
 注：名单不分排名，不定期补充更新
 
@@ -533,6 +533,7 @@ _用于操作图像的库_
 * [smartcrop](https://github.com/muesli/smartcrop) - 为任意图片进行剪裁的工具
 * [svGo](https://github.com/ajstarks/svGo) - 用于生成 SVG 的 Go 语言库
 * [tga](https://github.com/ftrvxmtrx/tga) - tga 是一个 TARGA 图像格式解码/编码器
+* [go-qrcode](https://github.com/skip2/go-qrcode) - QR Code 编码器（Go语言实现）
 
 ## 物联网
 
