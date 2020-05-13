@@ -694,6 +694,7 @@ _一些暂时无法归类的库_
 _用于处理人类语言的库_
 
 * [dpar](https://github.com/danieldk/dpar/) - 基于变换的统计依赖关系解析器
+* [easy-i18n](https://github.com/mylukin/easy-i18n) - 使用类似 fmt.Sprintf 的格式语法将Go程序翻译成多种语言。
 * [Go-eco](https://github.com/ThePaw/Go-eco) - 相似性，相异性及距离度量；差异性，均匀度和不均匀度测量；物种多样性估计；群落线模型
 * [Go-i18n](https://github.com/nicksnyder/Go-i18n/) - 软件包及相关工具，用于处理本地化文本
 * [Go-mystem](https://github.com/dveselov/mystem) - Yandex.Mystem 的  CGo 接口， Yandex.Mystem 是一个俄语词汇形态学分析器
