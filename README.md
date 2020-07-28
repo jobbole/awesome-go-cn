@@ -519,6 +519,7 @@ _用于操作图像的库_
 * [Go-gd](https://github.com/bolknote/Go-gd) - GD 库的 Go 语言接口
 * [Go-nude](https://github.com/koyachi/Go-nude) - 使用 Go 语言进行裸替检测
 * [Go-opencv](https://github.com/lazywei/Go-opencv) - OpenCV 的 Go 语言接口
+* [gocv](https://github.com/hybridgroup/gocv) - OpenCV 的 Go 语言接口,支持 OpenCV4.x
 * [Go-webcolors](https://github.com/jyotiska/Go-webcolors) - webcolors 库的 Go 语言接口
 * [imagick](https://github.com/Gographics/imagick) - ImageMagick 的 MagickWand C 语言 API 的 Go 语言接口
 * [imaginary](https://github.com/h2non/imaginary) - 快速且简单的 HTTP 微服务，用于图像缩放
