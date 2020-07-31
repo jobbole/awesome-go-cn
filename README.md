@@ -355,6 +355,7 @@ _用于构建分布式系统的库_
 * [torrent](https://github.com/anacrolix/torrent) - BitTorrent 客户端
 * [dht](https://Godoc.org/github.com/anacrolix/dht) - BitTorrent Kademlia DHT 的实现.
 * [Go-peerflix](https://github.com/Sioro-Neoku/Go-peerflix) - 视频流 torrent 客户端
+* [gatekeeper](https://github.com/didi/gatekeeper) - GateKeeper是一个不依赖分布式数据库的 API 网关
 
 ## 电子邮件
 
