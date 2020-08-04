@@ -213,7 +213,7 @@ _通用数据结构及算法_
 * [dgraph](https://github.com/dgraph-io/dgraph) - 可扩展的、分布式的、低延时、高吞吐的图数据库
 * [diskv](https://github.com/peterbourGon/diskv) - 具有 disk-backed 功能的持久化键值存储
 * [eliasdb](https://github.com/krotik/eliasdb) - 无依赖、事物型图数据库，支持 REST API、短语搜索以及类 SQL 的查询语言
-* [forestdb](https://github.com/couchbase/Goforestdb) - ForestDB 的 Go 语言借口
+* [forestdb](https://github.com/couchbase/Goforestdb) - ForestDB 的 Go 语言接口
 * [GCache](https://github.com/bluele/gcache) - 支持缓存过期、 LFU、 LRU 和 ARC 的缓存库
 * [geocache](https://github.com/melihmucuk/geocache) - 基于内存存储的缓存，适用于分布式部署的应用
 * [Go-cache](https://github.com/pmylund/Go-cache) - 内存键值存储/缓存库，适用于单机程序
@@ -336,7 +336,7 @@ _用于构建分布式系统的库_
 * [flowgraph](https://github.com/vectaport/flowgraph) - MPI 风格的读取，发送协同层
 * [gleam](https://github.com/chrislusf/gleam) - 快速、可扩展的分布式 map/reduce 系统，使用纯 Go 语言和 Luajit 编写，融合了 Go 语言的高并发能力和 Luajit 的高性能，可以独立或分布式部署运行。
 * [glow](https://github.com/chrislusf/glow) - 简单易用、可扩展的大数据处理能力，Map-Reduce 以及执行 DAG(Database Availability Group），所有功能均由Go语言编写.
-* [Go-jump](https://github.com/dgryski/Go-jump) - Google "Jump" 一致性哈希函数的借口
+* [Go-jump](https://github.com/dgryski/Go-jump) - Google "Jump" 一致性哈希函数的接口
 * [Go-kit](https://github.com/Go-kit/kit) - 为服务工具吧，支持服务发现、负载均衡 、可插拔传输以及请求追踪等
 * [Gorpc](https://github.com/valyala/Gorpc) - 简单、快速、可扩展的 RPC 库，针对高负载场景
 * [grpc-Go](https://github.com/grpc/grpc-Go) - Go 语言实现的 gRPC. HTTP/2 基于 RPC.
@@ -594,7 +594,7 @@ _机器学习库_
 * [bayesian](https://github.com/jbrukh/bayesian) - 贝叶斯分类器
 * [CloudForest](https://github.com/ryanbressler/CloudForest) - 纯 Go 语言编写的快速、灵活、多线程决策树
 * [gaGo](https://github.com/MaxHalford/gaGo) - 多种群，灵活的，并行的遗传算法
-* [Go-fann](https://github.com/white-pony/Go-fann) - 快速人工神经网络库(FANN)的 Go 语言借口.
+* [Go-fann](https://github.com/white-pony/Go-fann) - 快速人工神经网络库(FANN)的 Go 语言接口.
 * [Go-galib](https://github.com/thoj/Go-galib) - Go 语言编写的遗传算法库
 * [Go-pr](https://github.com/daviddengcn/Go-pr) -  Go 语言模式识别库
 * [Gobrain](https://github.com/Goml/Gobrain) -  Go 语言编写的神经网络
@@ -877,7 +877,6 @@ _可以帮助你增强应用程序安全性的库_
 * [secure](https://github.com/unrolled/secure) - Go 语言 HTTP 中间件，为 Go 提供了一些安全功能
 * [simple-scrypt](https://github.com/elithrar/simple-scrypt) - Scrypt 库，具有简单、易懂的 API，同时具有内置的自动校准功能
 * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - 利用 ssh 秘钥加解密
-
 ## 序列化
 
 _用于进行二进制序列化的库和工具_
