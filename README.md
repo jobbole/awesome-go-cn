@@ -452,7 +452,7 @@ _一些增强语言的功能的工具例如通过代码生成支持泛型_
 * [gen](https://github.com/clipperhouse/gen) - 代码生成工具,用于提供类似泛型的功能
 * [Go-linq](https://github.com/ahmetalpbalkan/Go-linq) - 类似 .NET LINQ 的查询方法
 * [interfaces](https://github.com/rjeczalik/interfaces) - 命令行工具，用于生成接口定义
-* [jennifer](https://github.com/dave/jennifer) - 不适用模板生成任意 Go 语言代码
+* [jennifer](https://github.com/dave/jennifer) - 不使用模板生成任意 Go 语言代码
 * [pkgreflect](https://github.com/ungerik/pkgreflect) - 用于包作用域反射的 Go 语言预处理器
 
 ## Go 编译器
