@@ -53,7 +53,7 @@ _用于操作音频的库_
 
 _用来生成认证授权模板的库_
 
-* [authboss](https://github.com/volatiletech/authboss) - 用于 web 开发的组件化认证授权系统。它尝试尽可能的移除模板代码以及硬编码，这使你每次新建 web 项目的时候，可以做到即插即用、配置并开始开发你的 web 英语，而不必每次都重新创建一个认证授权系统。
+* [authboss](https://github.com/volatiletech/authboss) - 用于 web 开发的组件化认证授权系统。它尝试尽可能的移除模板代码以及硬编码，这使你每次新建 web 项目的时候，可以做到即插即用、配置并开始开发你的 web 应用，而不必每次都重新创建一个认证授权系统。
 * [casbin](https://github.com/hsluoyz/casbin) - 一个支持接入控制模型（例如:ACL,RBAC,ABAC）的授权库
 * [Go-AWS-Auth](https://github.com/smartystreets/Go-aws-auth) - AWS 请求签名库
 * [Go-jose](https://github.com/square/Go-jose) - Fairly complete implementation of the JOSE working group's JSON Web Token, JSON Web 签名以及JSON Web 加密 specs.
