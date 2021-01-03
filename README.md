@@ -1311,7 +1311,7 @@
 * [firewalld-rest](https://github.com/prashantgupta24/firewalld-rest) :  用于动态更新`linux`服务器上的`firewalld`规则的定时程序。
 * [go-generate-password](https://github.com/m1/go-generate-password) : 密码生成器,可以作为客户端使用或者作为代码库使用。  
 * [go-password-validator](https://github.com/lane-c-wagner/go-password-validator) :  用于原始加密熵值的密码验证器。
-* [go-yara](https://github.com/hillu/go-yara) : `Go Bindings for[YARA](https://github.com/plusvic/yara)`恶意软件研究人员（以及其他所有人）的模式匹配瑞士刀"。
+* [go-yara](https://github.com/hillu/go-yara) : Go Bindings for[YARA](https://github.com/plusvic/yara) 恶意软件研究人员（以及其他所有人）的模式匹配瑞士刀"。
 * [goArgonPass](https://github.com/dwin/goArgonPass) : `Argon2`密码散列和验证,旨在与现有的Python和PHP实现兼容。
 * [goSecretBoxPassword](https://github.com/dwin/goSecretBoxPassword) :   用于安全地散列和加密密码的`go`语言包。
 * [Interpol](https://bitbucket.org/vahidi/interpol) : 用于模糊和渗透测试的基于规则的数据生成器,。
@@ -1383,7 +1383,7 @@
 ----
 ## 模板引擎
 `模版渲染和模版生成处理库`
-* [ace](https://github.com/yosssi/ace) :  Go 语言版本的 HTML 模板引擎,受到了` Slim`和`Jad`e 的启发。`Ace` 是对`Gold`的一种改进。
+* [ace](https://github.com/yosssi/ace) :  Go 语言版本的 HTML 模板引擎,受到了` Slim`和`Jade` 的启发。`Ace` 是对`Gold`的一种改进。
 * [amber](https://github.com/eknkc/amber) :  Amber 是一个优雅的模板引擎,受到`HAML`和`Jade`的启发
 * [damsel](https://github.com/dskinner/damsel) : 通过css选择器实现了` html` 框架 ,并可以通过` pkg html/template` 等进行扩展
 * [ego](https://github.com/benbjohnson/ego) :  轻量级模板语言,让你可以使用` Go`语言来创建模板。模板会被转化为 Go 语言并编译
