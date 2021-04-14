@@ -408,6 +408,7 @@
 * [pogreb](https://github.com/akrylysov/pogreb) :  嵌入式键值存储,适用于重读工作负载。
 * [prometheus](https://github.com/prometheus/prometheus) :  监控系统及时间序列数据库
 * [pudge](https://github.com/recoilme/pudge) :   使用 `Go` 的标准库编写的快速、简单的键值存储。
+* [rosedb](https://github.com/roseduan/rosedb) : 一个基于 LSM+WAL 的内嵌 k-v数据库，支持多种数据结构，如字符串、列表、哈希表、集合、有序集合
 * [rqlite](https://github.com/rqlite/rqlite) :  基于 `SQLite `的轻量级的、分布式的关系型数据库
 * [Scribble](https://github.com/nanobox-io/golang-scribble) :  小巧的 `JSON` 文件存储
 * [slowpoke](https://github.com/recoilme/slowpoke) :   具有持久性的键值存储。
