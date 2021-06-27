@@ -697,7 +697,7 @@
 * [go-finance](https://github.com/pieterclaerhout/go-finance) :  用于获取汇率、通过VIES查询增值税号和查询IBAN银行账号的模块。
 * [go-finnhub](https://github.com/m1/go-finnhub) :  来自`finnhub.io`的股市、外汇和加密数据客户端。访问来自60多家证券交易所、10家外汇经纪商和15家以上加密交易所的实时金融市场数据。
 * [go-money](https://github.com/rhymond/go-money) :   `Fowler's Money`模式的实现。
-* [ofxgo](https://github.com/aclindsa/ofxgo) :   查询 `OFX `服`务器并解析其响应 (有一个示例的命令行客户端)
+* [ofxgo](https://github.com/aclindsa/ofxgo) :   查询 `OFX `服务器并解析其响应 (有一个示例的命令行客户端)
 * [orderbook](https://github.com/i25959341/orderbook) :  `Golang`中的限价订单簿的匹配引擎。
 * [techan](https://github.com/sdcoffey/techan) :   具有高级市场分析和交易策略的技术分析库。
 * [transaction](https://github.com/claygod/transaction) : 以多线程模式运行的嵌入式的账户交易数据库,。
