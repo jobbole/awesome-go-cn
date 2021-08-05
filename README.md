@@ -956,7 +956,6 @@
 * [logger](https://github.com/azer/logger) :  日志库。
 * [logmatic](https://github.com/borderstech/logmatic) :  ` Golang`的彩色日志记录器,具有动态日志级别配置功能。
 * [logo](https://github.com/mbndr/logo) :  `Golang`的日志记录库,可配置不同的写入器。
-* [logrus](https://github.com/Sirupsen/logrus) :  支持结构化的日志工具.
 * [logrusiowriter](https://github.com/cabify/logrusiowriter) :  使用 `logrus logger` 的 `io.Writer` 实现。 
 * [logrus](https://github.com/sirupsen/logrus) : ` Go `的结构化日志记录器。
 * [logrusly](https://github.com/sebest/logrusly) :  [logrus](https://github.com/sirupsen/logrus)插件,用于将错误发送到[Loggly](https://www.loggly.com/)
