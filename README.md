@@ -372,6 +372,7 @@
 * [ttlcache](https://github.com/ReneKroon/ttlcache) : 基于过期时间的内存字符串缓存接口。
 * [typ](https://github.com/gurukami/typ) :  空类型安全的基础类型转换器和从复杂结构中取值的开发库。
 * [willf/bloom](https://github.com/willf/bloom) :   实现了布隆过滤器的库
+* [MemoryCache](https://github.com/lxzan/memorycache) :  带过期时间的`ConcurrentHashMap`, 使用最小堆实现TTL。可以在一些场景替代`Redis`。
 ----
 ## 数据库  
 `go语言实现的数据库`
