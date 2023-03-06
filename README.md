@@ -675,6 +675,7 @@
 * [go-decent-copy](https://github.com/hugocarreira/go-decent-copy) : 文件复制功能库。 
 * [go-exiftool](https://github.com/barasher/go-exiftool) :  为`ExifTool`提供绑定服务,`ExifTool`是一个著名的库,用于从文件（图片、PDF、office...）中提取尽可能多的元数据
 * [go-gtfs](https://github.com/artonge/go-gtfs) :  用`go`加载`gtfs`文件
+* [go-get-folder-size](https://github.com/markthree/go-get-folder-size) :  递归获取文件夹大小，足够快，可以跑在 go 和 nodejs 中
 * [gut/yos](https://github.com/1set/gut) :  简单可靠的文件操作包,支持对文件、目录和符号链接的`copy/move/diff/list`。
 * [notify](https://github.com/rjeczalik/notify) : 类似 `os/signal`的文件系统提示库,具有简单的 API. 
 * [opc](https://github.com/qmuntal/opc) :   为` Go `加载` Open Packaging Conventions (OPC) `文件
