@@ -1084,6 +1084,7 @@
 * [goioc/di](https://github.com/goioc/di) :  `Spring`启发的依赖注入容器。
 * [linker](https://github.com/logrange/linker) :   基于反射的依赖注入和反转的控件库,支持组件生命周期。
 * [wire](https://github.com/Fs02/wire) :  `Golang`运行时依赖注入。
+* [Gone](https://github.com/gone-io/gone): Go 语言的依赖注入工具，可以注入配置、Http请求参数，集成了Web开发的常用组件。
 ### 项目结构
 `用于构建项目的非官方模式集。`
 * [cookiecutter-golang](https://github.com/lacion/cookiecutter-golang) :Go应用程序模板,用于按照生产最佳实践快速启动项目。 
@@ -1964,6 +1965,7 @@
 * [vox](https://github.com/aisk/vox) : `Golang`网络框架,灵感来自`Koa`。
 * [WebGo](https://github.com/bnkamalesh/webgo) :  构建`Web`应用的微服务框架；具有处理程序链、中间件和上下文注入功能。具有标准库兼容的`HTTP`处理程序（即`http.HandlerFunc`）。
 * [YARF](https://github.com/yarf-framework/yarf) : 微服务框架,用于快速、简单地构建`REST APIs`以及` web` 服务
+* [Gone](https://github.com/gone-io/gone): 基于依赖注入实现的轻量级Web微服务框架，模块化可插拔设计，支持无侵入的链路追踪，开箱可用。
 ----
 ## 中间件
 ### 中间件
