@@ -1904,6 +1904,7 @@
 * [go-vcs](https://github.com/sourcegraph/go-vcs) :  通过`Go`语言来操作和检视` VCS`代码仓
 * [hercules](https://github.com/src-d/hercules) :  查看`git repo`历史的代码库
 * [hgo](https://github.com/beyang/hgo) : `HGo` 是一个`Go`语言软件包集合,提供了对本地` Mercurial`仓库的读取能力.
+* [gitty](https://github.com/Omibranch/gitty) : 用人类可读命令替代`git add/commit/push`工作流的单文件二进制CLI工具，支持分支、PR管理和检查点。
 ----
 ## 视频
 `视频和流媒体相关库`
