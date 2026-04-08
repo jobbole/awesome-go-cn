@@ -1397,6 +1397,7 @@
 * [go-yara](https://github.com/hillu/go-yara) : Go Bindings for[YARA](https://github.com/plusvic/yara) 恶意软件研究人员（以及其他所有人）的模式匹配瑞士刀"。
 * [goArgonPass](https://github.com/dwin/goArgonPass) : `Argon2`密码散列和验证,旨在与现有的Python和PHP实现兼容。
 * [goSecretBoxPassword](https://github.com/dwin/goSecretBoxPassword) :   用于安全地散列和加密密码的`go`语言包。
+* [gost-crypto](https://github.com/rekurt/gost-crypto) : 基于`OpenSSL gost-engine`的俄罗斯`ГОСТ`加密标准Go库（数字签名、Стрибог哈希、Кузнечик密码、MGM AEAD）。
 * [Interpol](https://bitbucket.org/vahidi/interpol) : 用于模糊和渗透测试的基于规则的数据生成器,。
 * [lego](https://github.com/go-acme/lego) :  纯` Go`语言开发的` ACME` 客户端库及命令行工具
 * [memguard](https://github.com/awnumar/memguard) : 用于处理内存中敏感数据的`Go` 语言库
