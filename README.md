@@ -170,6 +170,7 @@
 * [slackscot](https://github.com/alexandre-normand/slackscot) : 构建`Slack`机器人的框架。
 * [tbot](https://github.com/yanzay/tbot) : `Telegram`机器人服务器,其API类似于`net/http`。
 * [telebot](https://github.com/tucnak/telebot) :  用`Go`编写的`Telegram`机器人框架。
+* [ymsdk](https://github.com/rekurt/ymsdk) : 轻量级的 Yandex Messenger Bot API Go SDK，支持类型安全模型、自动重试和限流处理。
 * [telegram-bot-api](https://github.com/Syfaro/telegram-bot-api) :  简单干净的`Telegram`机器人客户端。
 * [Tenyks](https://github.com/kyleterry/tenyks) :  使用`Redis` 和`JSON`进行消息传递的面向服务的` IRC`机器人。
 ----
