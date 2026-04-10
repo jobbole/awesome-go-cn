@@ -98,6 +98,7 @@
         - [其他软件库和软件包](#其他软件库和软件包)
 
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=jobbole_awesome-go-cn) - Follow developers on GitHub and see what repos they star. Like a social feed for repo discovery.
 ##  音频和音乐库
 * [flac](https://github.com/mewkiz/flac) :  原生`Go`语言编写的FLAC数据流编码与解码器。
 * [gaad](https://github.com/Comcast/gaad) :  原生`Go`语言编写的AAC比特流解析器。
