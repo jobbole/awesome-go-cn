@@ -296,6 +296,7 @@
 ----
 ## 持续集成
 `持续集成的辅助工具`
+* [apkgo](https://github.com/KevinGong2013/apkgo) :  面向 Android / HarmonyOS 多应用商店的发布 CLI（Go，PolyForm Noncommercial）；配套 [apkgo cloud](https://apkgo.baici.tech) 亦支持 iOS App Store 发布。
 * [CDS](https://github.com/ovh/cds) :  企业级`CI/CD`和`DevOps`自动化开源平台。
 * [drone](https://github.com/drone/drone) : ` Drone` 是一个基于` Docker`的持续集成平台,使用 `Go `语言编写
 * [duci](https://github.com/duck8823/duci) :  简单的`ci`服务器,不需要特定领域的语言。
