@@ -669,6 +669,7 @@
 * [baraka](https://github.com/xis/baraka) :   用于轻松处理 `http `文件上传的库。
 * [bigfile](https://github.com/bigfile/bigfile) :  文件传输系统,支持用`http api、rpc`调用和`ftp`客户端管理文件。
 * [checksum](https://github.com/codingsince1985/checksum) :  计算大文件的信息摘要,如`MD5`和`SHA256`。
+* [kaijuconverter-go](https://github.com/PabloCirre/kaijuconverter-go) : 用于 [KaijuConverter](https://kaijuconverter.com) 通用文件格式转换 API 的 Go 语言客户端与命令行工具。
 * [copy](https://github.com/otiai10/copy) :  递归复制目录。
 * [flop](https://github.com/homedepot/flop) :   文件操作库,目的是与 [GNU cp](https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html)进行镜像。   
 * [go-csv-tag](https://github.com/artonge/go-csv-tag) :   使用 `tag` 导入 `csv`
